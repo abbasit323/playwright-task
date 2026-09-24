@@ -1,0 +1,50 @@
+{
+  "login": {
+    "valid": {
+      "username": "valid.user@example.com",
+      "password": "ValidPass@123"
+    },
+    "boundary": {
+      "username": "a@b.co",
+      "password": "Ab1!"
+    },
+    "negative": {
+      "invalidEmail": {
+        "username": "not-an-email",
+        "password": "ValidPass@123"
+      },
+      "wrongPassword": {
+        "username": "valid.user@example.com",
+        "password": "WrongPass@123"
+      },
+      "emptyFields": {
+        "username": "",
+        "password": ""
+      }
+    }
+  },
+  "schedulePickup": {
+    "valid": {
+      "address": "123 Main Street, Lahore",
+      "date": "2026-10-01",
+      "time": "10:00"
+    },
+    "boundary": {
+      "address": "A",
+      "date": "2026-09-25",
+      "time": "09:00"
+    },
+    "negative": {
+      "emptyAddress": {
+        "address": "",
+        "date": "2026-10-01",
+        "time": "10:00"
+      },
+      "pastDate": {
+        "address": "123 Main Street, Lahore",
+        "date": "2020-01-01",
+        "time": "10:00"
+      }
+    }
+  }
+}
