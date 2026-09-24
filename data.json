@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 {
   "username": "testuser",
   "password": "Test@123",
   "email": "test@example.com"
+=======
+{
+  "username": "testuser",
+  "password": "Test@123",
+  "email": "test@example.com"
+>>>>>>> origin/main
 }
